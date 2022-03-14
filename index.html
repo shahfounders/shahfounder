@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portf.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <img src="chef1.png" class="logo">
+            <ul>
+                <li><a href="home.html" target="_blank">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">HIRE ME</a></li>
+            </ul>
+            <img src="moon.png" id="icon">
+        </nav>
+        <div class="info">
+            <h1>eksrh <span>'kkg</span> th</h1>
+            <p id="para">gekjs ;gk¡ 'kknh] fookg] fryd] cFkZMs] ,oa vU; fdlh Hkh 'kqHk volj <br>ij [kkuk] feBkbZ] pkV] ikuh] iwjh] pkmehu] cukus ds fy, lEidZ djsaA</p>
+            <span> <a href="">izks fnus'k xqIrk</a></span>
+
+        </div>
+        <div class="img-box">
+            <img src="pattern.png" class="back-img">
+            <img src="chefkhda.png" class="main-img">
+        </div>
+        <div class="social-links">
+            <a href="https://wa.me/916393630677?text=hello" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100072307971050" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="www.instagram.com/raviji115" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="tel:+91 6393630677" target="_blank"><i class="fa-solid fa-phone"></i></a>
+
+        </div>
+    </div>
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function() {
+            document.body.classList.toggle("dark-theme");
+            if (document.body.classList.contains("dark-theme")) {
+                icon.src = "sun.png";
+            } else {
+                icon.src = "moon.png"
+            }
+        }
+    </script>
+
+</body>
+
+</html>
